@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.img-rs{
+    width: 40px;
+    height:40px;
+    opacity: 0.5;
+}
+
+.img-rs:hover{
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+header{
+    border-bottom: 2px solid black;
+}
+
+#me_apresentacao{
+margin-top: 10px;
+height: 30vh;
+
+
+}
+
+#apresentacao{
+    padding: 15px;
+    margin-left: 2px;
+    float: left;
+    width: 65%;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px  black;
+
+}
+
+#apresentacao>p{
+    padding: 15px;
+    
+}
+
+
+#foto{
+    float: right;
+    width: 30%;
+    height: 100%;
+    margin: 20px;
+    border-radius: 60%;
+    
+}
+
+#foto_img{
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    border-radius: 50%;
+    max-width: 250px;
+}
+
+
+
+@media(max-width:900px){
+
+
+
+    #apresentacao{
+
+        display: block;  
+         
+
+    }
+
+
+    #foto{
+        display: block;
+        margin-right: 150px;
+        margin-top: 50px;
+        width: 100%;
+        height: 30%;
+        align-items: start;
+        margin-bottom: 250px;
+    }
+
+    #Skills{
+        display: block;
+        clear: both;
+        display: block;
+    }
+
+}
+
+
+@media(max-width:500px){
+    body{
+        background-color: black;
+    }
+
+    #apresentacao{
+        padding: 15px;
+        margin-left: 2px;
+        float: none;
+        width: 100%;
+        color: white;
+        border-top: 5px solid  white;
+
+    }
+
+    
+}
