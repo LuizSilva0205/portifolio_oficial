@@ -29,6 +29,10 @@ h4{
     
 }
 
+.resposta{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+}
+
 
 
 
@@ -162,6 +166,9 @@ height: 30vh;
 
 #me{
     border: 1px solid gray;
+    max-width: 750px;
+    border-radius: 5px;
+    justify-content: center;
 }
 
 
@@ -171,53 +178,11 @@ height: 30vh;
 }
 
 
-.resposta{
-
-}
 
 
 /*====================================== mudar por refência de mídia=========================================*/
 
-@media(max-width:800px){
 
-
-
-    #apresentacao{
-
-        display: block;  
-         
-
-    }
-
-    .capa{
-       margin-left: auto;
-        width: 80%;
-        height: 70%;
-        padding-left: 10%;
-    }
-
-
- 
-
-    #Skills{
-        display: block;
-        clear: both;
-        display: block;
-    }
-.barra{
-    margin-top: 50px;
-}
-    #foto{
-        display: inline;
-        margin-top: 20px;
-        width: 250px;
-        height: 50%;
-        align-items: start;
-        margin-right: 150px;
-        margin-bottom: 100px;
-    }
-
-}
 
 
 @media(max-width:500px){
@@ -293,5 +258,72 @@ height: 30vh;
 
     .img-rs{
         opacity: 1;
+    }
+}
+
+
+
+
+/*================= ===============*/
+
+@media(max-width:800px){
+
+
+
+    #apresentacao{
+
+        display: block;  
+         
+
+    }
+
+    .capa{
+       margin-left: auto;
+        width: 80%;
+        height: 70%;
+        padding-left: 10%;
+    }
+
+
+ 
+
+    #Skills{
+        display: block;
+        clear: both;
+        display: block;
+    }
+.barra{
+    margin-top: 50px;
+}
+    #foto{
+        display: inline;
+        margin-top: 20px;
+        width: 250px;
+        height: 50%;
+        align-items: start;
+        margin-right: 150px;
+        margin-bottom: 100px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/*================= ===============*/
+
+@media(min-width:1000px){
+
+    #me{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 70%;
     }
 }
