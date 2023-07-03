@@ -4,6 +4,9 @@
     font-size: 16px;
 }
 
+
+/*====================tags do corpo da página==========================*/
+
 body{
     background-color: rgb(255, 255, 255);
     
@@ -12,6 +15,26 @@ body{
 p{
     text-indent: 10px;
 }
+
+
+header{
+    border-bottom: 2px solid black;
+}
+
+h4{
+    background-color: black;
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+/*===============================Cabeçalho e apresentação========================================*/
+
 
 .img-rs{
     width: 40px;
@@ -22,10 +45,6 @@ p{
 .img-rs:hover{
     opacity: 1;
     transform: translateY(-2px);
-}
-
-header{
-    border-bottom: 2px solid black;
 }
 
 #me_apresentacao{
@@ -75,15 +94,9 @@ height: 30vh;
     height: 70%;
 }
 
-h4{
-    background-color: black;
-    color: #ffffff;
-    padding: 3px;
-    border-radius: 10px;
-    
-}
 
 
+/*========================================meus projetos=============================================*/
 
 .projetos{
     margin: auto;
@@ -127,7 +140,7 @@ h4{
     border: 1px solid black;
 }
 
-
+/*========================Botões=============================================*/
 .btn_site{
     
     width: 100%;
@@ -145,6 +158,25 @@ h4{
 }
 
 
+/*==========================Fildset de me conheça======================*/
+
+#me{
+    border: 1px solid gray;
+}
+
+
+.categoria{
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+
+.resposta{
+
+}
+
+
+/*====================================== mudar por refência de mídia=========================================*/
 
 @media(max-width:800px){
 
