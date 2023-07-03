@@ -33,6 +33,15 @@ h4{
     border-bottom: 1px solid rgba(128, 128, 128, 0.226);
 }
 
+#me{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+
 
 
 
@@ -260,8 +269,15 @@ height: 30vh;
         opacity: 1;
     }
 
-    .me{
-        background-color: gray;
+    #me{
+        width: 90%;
+        background: gray;
+    }
+
+    #bg-me{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: linear-gradient( rgba(0,0,0,1) 0%, rgba(77,77,83,1) 35%, rgba(0,0,0,0.9839080459770115) 100%);
     }
 }
 
@@ -324,10 +340,4 @@ height: 30vh;
 
 @media(min-width:1000px){
 
-    #me{
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        width: 70%;
-    }
 }
