@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+
+/*====================tags do corpo da página==========================*/
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    
+}
+
+p{
+    text-indent: 10px;
+}
+
+
+header{
+    border-bottom: 2px solid black;
+    position: relative;
+}
+
+#Skills>nav>ul{
+    position: absolute;
+    margin-top: 800px;
+
+}
+
+h4{
+    background-color: black;
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+
+.resposta{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+}
+
+#me{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+#rodape{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(12, 16, 36);
+
+    color: white;
+   
+    
+
+}
+
+
+
+
+
+
+
+/*===============================Cabeçalho e apresentação========================================*/
+
+
+.img-rs{
+    width: 40px;
+    height:40px;
+    opacity: 0.5;
+}
+
+.img-rs:hover{
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+#me_apresentacao{
+margin-top: 10px;
+height: 30vh;
+
+
+}
+
+#apresentacao{
+    padding: 15px;
+    margin-left: 2px;
+    float: left;
+    width: 65%;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px  black;
+
+}
+
+#apresentacao>p{
+    padding: 15px;
+    
+}
+
+#div-foto{
+    z-index: 2;
+   margin-top: -100px;
+   clear: both;
+
+}
+
+#foto{
+    display: inline;
+    border: 2px solid rgb(0, 0, 0);
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+
+    
+}
+
+#foto_img{
+    margin-right: 100px;
+    width: 250px;
+    height: 30%;
+    border-radius: 50%;
+    max-width: 250px;
+}
+
+.capa{
+    width: 100%;
+    height: 70%;
+}
+
+#Skills{
+    display: block;
+    clear: both;
+    display: block;
+    
+
+ 
+    
+}
+
+#container{
+
+    height: 60vh;
+
+
+
+
+
+}
+/*=====================Cards ====================================*/
+
+#container_cards{
+    display: flex;
+}
+
+#img_cards{
+    height: 300px;
+    width:250px;
+    border-radius: 3px;
+}
+
+.card{
+    height: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.intro{
+    height: 200px;
+    width: 250px;
+    padding: 6px;
+    bottom: -140px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(27,27,27, .5);
+    color: white;
+    transition: .5s;
+}
+
+.intro>h1{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.intro>p{
+    
+    font-size: 16px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.intro>a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+    
+}
+
+.intro>a:hover{
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;  
+   
+}
+
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card:hover .intro{
+    height: 350px;
+    background-color: black;
+}
+
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover img{
+    transform: scale(1.1) rotate(-3deg);
+}
+/*========================================meus projetos=============================================*/
+
+.projetos{
+    margin: auto;
+    width: 80%;
+    height: 550px;
+  
+}
+
+
+.exemplos_projetos_left{
+    float: left;
+    width: 47%;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.exemplos_projetos_rigth{
+
+    float: right;
+    width: 47%;
+    margin-right: 15px;
+    padding: 10px;
+ 
+}
+
+.ladoA{
+
+    margin-top: 50px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425);
+}
+
+
+.ladoB{
+    margin-top: 50px;
+    background-color:#fff;
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425);
+    border: 1px solid black;
+}
+
+/*========================Botões=============================================*/
+.btn_site{
+    
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+
+}
+
+.link{
+    color: white;
+    font-weight: bolder;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+
+/*==========================Fildset de me conheça======================*/
+
+#me{
+    border: 1px solid gray;
+    max-width: 750px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+
+.categoria{
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+
+
+
+/*====================================== mudar por refência de mídia=========================================*/
+
+
+
+
+@media(max-width:500px){
+    body{
+        background-color: black;
+    }
+
+    #foto{
+        display: inline;
+        margin-top: 20px;
+        width: 250px;
+        height: 50%;
+        align-items: start;
+        margin-bottom: 250px;
+        margin: 10% 15% 50% 2%;
+    }
+
+    #apresentacao{
+        padding: 15px;
+        margin-left: 2px;
+        float: none;
+        width: 100%;
+        color: white;
+        border-top: 5px solid  white;
+
+    }
+
+    .exemplos_projetos_left{
+        
+        width: 90%;
+        padding: 10px;
+        margin: 0 0 0 5%;
+    
+    }
+    
+    .exemplos_projetos_rigth{
+    
+        float:left;
+        width: 90%;
+        margin: 0;
+        margin: 0 0 0 5%;
+    }
+
+    .projetos{
+        width: 85%;
+        align-items: center;
+        justify-content: center;
+  
+      
+    }
+
+    .ladoB{
+
+        margin-top: 50px;
+        background-color: rgb(22, 22, 22);
+        color: white;
+        border-radius: 6px;
+       
+    }
+
+    .ladoA{
+
+        margin-top: 50px;
+
+    }
+    
+
+    .div_esquerda{
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .img-rs{
+        opacity: 1;
+    }
+
+    #me{
+        width: 70%;
+        background: gray;
+    }
+
+    #bg-me{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: linear-gradient( rgba(0,0,0,1) 0%, rgba(77,77,83,1) 35%, rgba(0,0,0,0.9839080459770115) 100%);
+    }
+}
+
+
+
+
+/*================= ===============*/
+
+@media(max-width:800px){
+
+
+
+    #apresentacao{
+
+        display: block;  
+         
+
+    }
+
+    .capa{
+       margin-left: auto;
+        width: 80%;
+        height: 70%;
+        padding-left: 10%;
+    }
+
+
+ 
+
+    #Skills{
+        display: block;
+        clear: both;
+        display: block;
+        
+    }
+.barra{
+    margin-top: 50px;
+}
+    #foto{
+        display: inline;
+        margin-top: 20px;
+        width: 250px;
+        height: 50%;
+        align-items: start;
+        margin-right: 150px;
+        margin-bottom: 100px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/*================= ===============*/
+
+@media(min-width:1000px){
+
+}
