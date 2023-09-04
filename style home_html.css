@@ -18,7 +18,7 @@ p{
 
 
 header{
-
+    padding: 20px;
 }
 
 h4{
@@ -29,20 +29,43 @@ h4{
     
 }
 
-.resposta{
-    border-bottom: 1px solid rgba(128, 128, 128, 0.226);
-}
 
-#me{
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    width: 70%;
-}
+
 
 #rodape{
+
+    padding: 20px;
     text-align: center;
     font-weight: bold;
+
+}
+
+#rodape>a{
+    width: 100px;
+    padding:  8px;
+    border-radius: 50px;
+    background-color: #800080;
+    color: white;
+    margin: 50px;
+
+}
+
+#rodape>p{
+
+    padding:  8px;
+    margin: 10px;
+
+}
+
+#boot{
+
+    padding: 10px;
+    text-align: center;
+
+}
+
+#boot>a>img:hover{
+    filter: drop-shadow(5px 5px 5px #800080);
 
 }
 
@@ -55,58 +78,9 @@ h4{
 /*===============================Cabeçalho e apresentação========================================*/
 
 
-.img-rs{
-    width: 40px;
-    height:40px;
-    opacity: 0.5;
-}
-
-.img-rs:hover{
-    opacity: 1;
-    transform: translateY(-2px);
-}
-
-#me_apresentacao{
-margin-top: 10px;
-height: 30vh;
 
 
-}
 
-#apresentacao{
-    padding: 15px;
-    margin-left: 2px;
-    float: left;
-    width: 65%;
-    color: white;
-    background-color: black;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px  black;
-
-}
-
-#apresentacao>p{
-    padding: 15px;
-    
-}
-
-
-#foto{
-    float: right;
-    width: 30%;
-    height: 100%;
-    margin: 10px 20px;
-    border-radius: 60%;
-    
-}
-
-#foto_img{
-    margin-right: 100px;
-    width: 250px;
-    height: 30%;
-    border-radius: 50%;
-    max-width: 250px;
-}
 
 .capa{
     width: 100%;
@@ -127,15 +101,16 @@ height: 30vh;
 
 .exemplos_projetos_left{
     float: left;
-    width: 47%;
+    width: 22%;
     margin-left: 15px;
     padding: 10px;
+    margin: 25px;
 }
 
 .exemplos_projetos_rigth{
 
-    float: right;
-    width: 47%;
+    float: left;
+    width: 22%;
     margin-right: 15px;
     padding: 10px;
  

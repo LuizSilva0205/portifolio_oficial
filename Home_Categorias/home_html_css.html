@@ -4,47 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home HTML & CSS</title>
+    <link rel="stylesheet" href="../style home_html.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
 </head>
-<body>
 
-    <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luiz Silva -Dev</title>
-    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="imagens/ico.png" type="image/x-icon">
-    <link rel="stylesheet" href="../style.css">
 
-    <script>
-        console.log(window.screen.availWidth)
-    </script>
-</head>
+
 <body>
 
 <header>
 
-    
+    <h1  class=" display-5 text-center">Projetos HTML & CSS</h1>
 </header>
 
 
-
-<!--    Inicio  Apresentação   -->
-
-
-
-<!--  ============Inicio dos meus projetos-->
+<div id="boot">
+    <h3>Todos os projetos fazem o uso do Bootstrap,</h3>
+    <a href="https://getbootstrap.com/" target="_blank">
+        <img src="../imagens/bootstrap-logo-shadow.png" alt="">
+    </a>
+    <h3>Um framework usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.</h3>.
+</div>
 
 <div>
-    <h4 class="mx-3 pl-3 mt-5">Projetos HTML & CSS</h4>
+
     <div class="projetos">
         <article class="exemplos_projetos_left ladoA">
             <h3>Notícias Cidade</h3>
             <div><img class="capa" src="../imagens/capas/projeto_cidade.png" alt=""></div>
             <p class=" text-justify p-3 mt3"> Neste projeto quero destacar enfâse na construção de layouts usando barras de navegação elementos flutuantes.</p>
             <button class="btn_site">
-                <a class="link" href="Noticias cidade/index.html" target="_blank">Visitar</a>
+                <a class="link" href="../Htmls e css/Noticias cidade/index.html" target="_blank">Visitar</a>
             </button>
         </article>
 
@@ -54,7 +45,7 @@
             <div><img class="capa" src="../imagens/capas/projeto_chale.PNG" alt=""></div>
             <p class=" text-justify p-3">Neste projeto quero destacar enfâse na construção de layouts usando barras de navegação elementos flutuantes, além de agregar um menu com uma propriedade z-index qie sobrepõe a imagem principal ao diminuir o tamanho da tela.</p>
             <button class="btn_site">
-                <a class="link" href="chale/index.html" target="_blank">Visitar</a>
+                <a class="link" href="../Htmls e css/chale/index.html" target="_blank">Visitar</a>
             </button>
         </article>
 
@@ -66,11 +57,12 @@
 
 
 
-
+<div style="clear: both;"></div>
 
 
 <footer id="rodape" class="my-3">
-    &copy; Todos os direitos reservados | Luiz Otávio da Silva
+    <a href="../home.html">VOLTAR</a>
+    <p>&copy; Todos os direitos reservados | Luiz Otávio da Silva</p>
 </footer>
 
 
